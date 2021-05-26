@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Utility classes | Border classes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+
+    <script>
+        function slide(){
+        $('.carousel').carousel({
+            interval: 1000
+          })}
+    </script>
+</head>
+
+<body>
+   
+    <div class="container">
+        <h1>Carousels</h1>
+        <hr />
+        
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval='1000'>
+                    <img src="savanna.jpeg" class="d-block w-100" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>African Savanna</h1>
+                            <p>The African savanna ecosystem is a tropical grassland with warm temperatures year-round and with its highest seasonal rainfall in the summer</p>
+                            <p><a class="btn btn-primary" href="#" role="button">Know more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item "  data-bs-interval='1000'>
+                    <img src="elephant.jpg" class="d-block w-100" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>African Elephants</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-primary" href="#" role="button">Know more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval='1000'>
+                    <img src="zirafi.jpeg" class="d-block w-100" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Giraffes</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-primary" href="#" role="button">Know more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
